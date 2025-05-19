@@ -219,7 +219,7 @@ function mp_exibir_player_musica() {
 
 
 function mp_carregar_scripts_player() {
-    wp_enqueue_style('mp-player-musica-css', plugin_dir_url(__FILE__) . 'css/player.css');
+    wp_enqueue_style('mp-player-musica-css', plugin_dir_url(__FILE__) . 'CSS/player.css');
     wp_enqueue_script('mp-player-musica-js', plugin_dir_url(__FILE__) . 'js/player.js', array(), null, true);
 }
 
